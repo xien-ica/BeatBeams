@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:bone": 2,
+      "minecraft:rotten_flesh": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 11577,
+      "minecraft:walk_one_cm": 25894,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 11577,
+      "minecraft:damage_dealt": 20,
+      "minecraft:jump": 27,
+      "minecraft:time_since_death": 11577,
+      "minecraft:sprint_one_cm": 1078,
+      "minecraft:total_world_time": 12966,
+      "minecraft:fly_one_cm": 55156,
+      "minecraft:walk_on_water_one_cm": 605,
+      "minecraft:crouch_one_cm": 375,
+      "minecraft:sneak_time": 421
+    },
+    "minecraft:used": {
+      "beatbeams:connector": 4,
+      "minecraft:grass_block": 28,
+      "minecraft:smooth_stone": 36,
+      "beatbeams:wire": 11,
+      "minecraft:pearlescent_froglight": 2,
+      "beatbeams:music_beacon": 2,
+      "minecraft:trader_llama_spawn_egg": 1
+    }
+  },
+  "DataVersion": 5023
+}

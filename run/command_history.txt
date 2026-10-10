@@ -1,0 +1,50 @@
+/fill -66 63 -67 -159 65 -67 minecraft:grass_block
+/fill -76 66 -126 -76 66 -80 minecraft:smooth_stone
+/fill -69 67 -87
+/fill -69 67 -87 -76 66 -118 minecraft:smooth_stone
+/fill -69 68 -116
+/fill -69 68 -116 -69 79 -89 minecraft:black_terracotta
+/fill -69 68 -116 -69 79 -89 minecraft:black_concrete
+/fill -70 68 -88
+/fill -70 68 -88 -69 79 -88 minecraft:iron_bars
+/fill -70 68 -88 -69 79 -87 minecraft:iron_bars
+/fill -70 68 -118
+/fill -70 68 -118 -69 79 -116 minecraft:iron_bars
+/fill -69 68 -116 -69 79 -89 minecraft:black_concrete
+/fill -80 80 -118
+/fill -80 80 -118 -69 80 -87 minecraft:polished_diorite_slab
+/fill -79 79 -88
+/fill -79 79 -88 -80 65 -87 minecraft:iron_bars
+/fill -79 79 -88 -80 65 -87 air
+/fill -79 79 -86
+/fill -79 79 -86 -80 66 -85 minecraft:iron_bars
+/fill -79 79 -119
+/fill -79 79 -119 -80 66 -120 minecraft:iron_bars
+/particle minecraft:campfire_signal_smoke -114.47 66.00 -96.64
+/particle minecraft:campfire_signal_smoke -114.47 66.00 -96.64 -114.67 66.00 -96.55
+/particle minecraft:campfire_signal_smoke -114.47 66.00 -96.64 -114.07 66.00 -93.58 1 64 normal
+/particle minecraft:white_smoke
+/particle minecraft:white_smoke -118.97 66.00 -94.15
+/fill -76 64 -118
+/fill -76 64 -118 -69 64 -87 minecraft:smooth_stone
+/fill -76 65 -118 -69 65 -87 minecraft:smooth_stone
+/weather clear
+/fill -55 55 -116
+/fill -55 55 -116 -64 62 -99 minecraft:grass_block
+/fill -51 54 -116
+/fill -49 58 -115
+/fill -49 58 -115 -54 62 -102 minecraft:grass_block
+/fill -65 63 -93
+/fill -65 63 -93 -50 63 -114 minecraft:grass_block
+/fill -67 64 -94
+/fill -67 64 -94 -66 65 -111 air
+/fill -72 64 -96
+/fill -72 64 -96 -70 64 -111 air
+/fill -72 64 -96 -70 66 -111 air
+/fill -69 63 -93
+/fill -69 63 -93 -72 63 -112 minecraft:spruce_planks
+/give Player577 minecraft:debug_stick
+/weather clear
+/time set minecraft:day
+/beatbeams list
+/beatbeams play 1

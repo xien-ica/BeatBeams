@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "beatbeams",
+  "version": "1.0",
+  "name": "BeatBeams",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/beatbeams/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "xien.ica.beatbeams.client.BeatbeamsDataGenerator"
+    ],
+    "client": [
+      "xien.ica.beatbeams.client.BeatbeamsClient"
+    ],
+    "main": [
+      "xien.ica.beatbeams.Beatbeams"
+    ]
+  },
+  "mixins": [
+    "beatbeams.mixins.json",
+    {
+      "config": "beatbeams.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "26.3"
+  }
+}

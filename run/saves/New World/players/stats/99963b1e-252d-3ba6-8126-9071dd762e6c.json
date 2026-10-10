@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:grass_block": 1,
+      "minecraft:lantern": 2,
+      "minecraft:iron_block": 28
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 12256,
+      "minecraft:time_since_rest": 19396,
+      "minecraft:walk_one_cm": 43278,
+      "minecraft:total_world_time": 24634,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 83160,
+      "minecraft:crouch_one_cm": 487,
+      "minecraft:sneak_time": 256,
+      "minecraft:play_time": 19396,
+      "minecraft:jump": 23,
+      "minecraft:time_since_death": 19396
+    }
+  },
+  "DataVersion": 5023
+}

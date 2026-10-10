@@ -1,0 +1,81 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    maven { url = "https://maven.fabricmc.net/" }
+    mavenCentral()
+}
+
+loom {
+    // Matches the generated src/main + src/client layout: common game
+    // objects in main, rendering/audio-link bootstrap in client.
+    splitEnvironmentSourceSets()
+
+    mods {
+        "beatbeams" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+// Wires up BeatbeamsDataGenerator (the "fabric-datagen" entrypoint in
+// fabric.mod.json) as a `runDatagen` Gradle task. Requires a Loom version
+// that ships the fabricApi DSL -- if this block errors on sync, check
+// https://docs.fabricmc.net/develop/data-generation/setup for the current
+// incantation for your exact Loom version.
+fabricApi {
+    configureDataGeneration()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+    withSourcesJar()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    // MP3 decoding (LGPL). implementation = compile/run in dev, include = bundled into the built jar.
+    implementation "com.googlecode.soundlibs:jlayer:1.0.1.4"
+    include "com.googlecode.soundlibs:jlayer:1.0.1.4"
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "minecraft_version", project.minecraft_version
+    inputs.property "loader_version", project.loader_version
+    filteringCharset "UTF-8"
+
+    // fabric.mod.json uses ${version}, ${minecraft_version} AND
+    // ${loader_version} -- all three need to be expanded, not just version.
+    filesMatching("fabric.mod.json") {
+        expand(
+                "version": project.version,
+                "minecraft_version": project.minecraft_version,
+                "loader_version": project.loader_version
+        )
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${archivesBaseName}" }
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "beatbeams:block/music_beacon" },
+    "powered=true": { "model": "beatbeams:block/music_beacon" }
+  }
+}

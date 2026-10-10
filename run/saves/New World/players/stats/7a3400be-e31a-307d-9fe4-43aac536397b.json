@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2101,
+      "minecraft:walk_one_cm": 6988,
+      "minecraft:total_world_time": 2809,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 111,
+      "minecraft:sneak_time": 32,
+      "minecraft:play_time": 2101,
+      "minecraft:jump": 3,
+      "minecraft:time_since_death": 2101
+    },
+    "minecraft:used": {
+      "minecraft:smooth_stone": 3,
+      "beatbeams:wire": 11,
+      "minecraft:lever": 7
+    },
+    "minecraft:picked_up": {
+      "minecraft:lever": 1
+    }
+  },
+  "DataVersion": 5023
+}

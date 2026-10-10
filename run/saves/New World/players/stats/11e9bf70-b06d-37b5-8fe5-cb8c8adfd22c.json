@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:lever": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 5160,
+      "minecraft:time_since_rest": 21936,
+      "minecraft:walk_one_cm": 35317,
+      "minecraft:total_world_time": 24838,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 210897,
+      "minecraft:crouch_one_cm": 1087,
+      "minecraft:sneak_time": 432,
+      "minecraft:play_time": 21936,
+      "minecraft:jump": 31,
+      "minecraft:time_since_death": 21936
+    },
+    "minecraft:used": {
+      "minecraft:mangrove_trapdoor": 2,
+      "minecraft:end_rod": 2
+    }
+  },
+  "DataVersion": 5023
+}

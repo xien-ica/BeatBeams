@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:smooth_stone": 5,
+      "minecraft:repeater": 3,
+      "minecraft:lever": 2,
+      "minecraft:polished_diorite": 5,
+      "minecraft:redstone": 11,
+      "minecraft:iron_bars": 3
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2274,
+      "minecraft:time_since_rest": 30278,
+      "minecraft:walk_one_cm": 33958,
+      "minecraft:total_world_time": 57637,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 29095,
+      "minecraft:crouch_one_cm": 268,
+      "minecraft:sneak_time": 277,
+      "minecraft:play_time": 30278,
+      "minecraft:jump": 32,
+      "minecraft:time_since_death": 30278
+    }
+  },
+  "DataVersion": 5023
+}

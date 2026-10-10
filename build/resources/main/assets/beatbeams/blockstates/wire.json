@@ -1,0 +1,567 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "attach": "north"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_dot",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "south"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_dot",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "east"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_dot",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "west"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_dot",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_dot",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "down"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_dot"
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm0": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm1": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm2": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm3": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm0": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm1": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm2": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm3": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm0": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm1": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm2": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm3": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm0": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm1": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm2": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm3": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side_e",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm0": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm1": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm2": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm3": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm0": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side"
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm1": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm2": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm3": "side|up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_side",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm0": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm1": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm2": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "north",
+        "arm3": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm0": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm1": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm2": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "south",
+        "arm3": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 270,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm0": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm1": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 270,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm2": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "east",
+        "arm3": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm0": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm1": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm2": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "west",
+        "arm3": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up_e",
+        "x": 270,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm0": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 180,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm1": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 180,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm2": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "up",
+        "arm3": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "x": 180,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm0": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up"
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm1": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm2": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "attach": "down",
+        "arm3": "up"
+      },
+      "apply": {
+        "model": "beatbeams:block/wire_up",
+        "y": 270
+      }
+    }
+  ]
+}

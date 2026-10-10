@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 15129,
+      "minecraft:time_since_rest": 60047,
+      "minecraft:walk_one_cm": 137299,
+      "minecraft:total_world_time": 72339,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 317465,
+      "minecraft:crouch_one_cm": 2388,
+      "minecraft:sneak_time": 1343,
+      "minecraft:play_time": 60047,
+      "minecraft:jump": 101,
+      "minecraft:time_since_death": 60047
+    },
+    "minecraft:used": {
+      "minecraft:oak_fence": 3,
+      "beatbeams:connector": 4,
+      "minecraft:grass_block": 2,
+      "minecraft:smooth_stone": 3,
+      "beatbeams:wire": 1,
+      "minecraft:glow_item_frame": 2,
+      "minecraft:white_concrete_stairs": 10,
+      "minecraft:spruce_planks": 13,
+      "minecraft:stone_button": 6,
+      "minecraft:black_wool": 12,
+      "minecraft:black_concrete_stairs": 11,
+      "minecraft:item_frame": 8,
+      "beatbeams:music_beacon": 9,
+      "minecraft:cherry_pressure_plate": 2,
+      "minecraft:spruce_trapdoor": 2,
+      "minecraft:glass_pane": 2,
+      "minecraft:end_rod": 5
+    },
+    "minecraft:picked_up": {
+      "minecraft:rotten_flesh": 2
+    }
+  },
+  "DataVersion": 5023
+}

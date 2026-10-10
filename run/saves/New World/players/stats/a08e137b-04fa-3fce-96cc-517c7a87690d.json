@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2072,
+      "minecraft:walk_one_cm": 4246,
+      "minecraft:total_world_time": 4612,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 3991,
+      "minecraft:crouch_one_cm": 245,
+      "minecraft:sneak_time": 92,
+      "minecraft:play_time": 2072,
+      "minecraft:jump": 8,
+      "minecraft:time_since_death": 2072
+    },
+    "minecraft:used": {
+      "beatbeams:music_player": 2,
+      "minecraft:waxed_copper_trapdoor": 2,
+      "minecraft:bamboo_trapdoor": 1,
+      "minecraft:pale_oak_trapdoor": 1
+    }
+  },
+  "DataVersion": 5023
+}

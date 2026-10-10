@@ -1,0 +1,30 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dappled_forest": "2026-09-27 10:26:22 +0800",
+      "minecraft:beach": "2026-09-27 10:14:50 +0800",
+      "minecraft:river": "2026-09-27 10:17:56 +0800",
+      "minecraft:plains": "2026-09-27 10:07:47 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-09-27 10:07:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-09-27 10:07:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-09-27 10:07:46 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}

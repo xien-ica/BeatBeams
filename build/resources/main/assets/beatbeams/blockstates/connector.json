@@ -1,0 +1,36 @@
+{
+  "multipart": [
+    {
+      "when": { "style": "post" },
+      "apply": { "model": "beatbeams:block/connector_post" }
+    },
+    {
+      "when": { "style": "post", "north": true },
+      "apply": { "model": "beatbeams:block/connector_side" }
+    },
+    {
+      "when": { "style": "post", "east": true },
+      "apply": { "model": "beatbeams:block/connector_side", "y": 90 }
+    },
+    {
+      "when": { "style": "post", "south": true },
+      "apply": { "model": "beatbeams:block/connector_side", "y": 180 }
+    },
+    {
+      "when": { "style": "post", "west": true },
+      "apply": { "model": "beatbeams:block/connector_side", "y": 270 }
+    },
+    {
+      "when": { "style": "pipe", "axis": "y" },
+      "apply": { "model": "beatbeams:block/connector_pipe" }
+    },
+    {
+      "when": { "style": "pipe", "axis": "z" },
+      "apply": { "model": "beatbeams:block/connector_pipe", "x": 90 }
+    },
+    {
+      "when": { "style": "pipe", "axis": "x" },
+      "apply": { "model": "beatbeams:block/connector_pipe", "x": 90, "y": 90 }
+    }
+  ]
+}

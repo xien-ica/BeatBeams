@@ -1,0 +1,13 @@
+{
+  "block.beatbeams.music_beacon": "Music Beacon",
+  "item.beatbeams.music_beacon": "Music Beacon",
+  "itemGroup.beatbeams": "BeatBeams",
+  "block.beatbeams.wire": "Wire",
+  "item.beatbeams.wire": "Wire",
+  "block.beatbeams.connector": "Connector Block",
+  "item.beatbeams.connector": "Connector Block",
+  "block.beatbeams.music_player": "Music Player",
+  "item.beatbeams.music_player": "Music Player",
+  "block.beatbeams.lights_panel": "Lights Control Panel",
+  "item.beatbeams.lights_panel": "Lights Control Panel"
+}

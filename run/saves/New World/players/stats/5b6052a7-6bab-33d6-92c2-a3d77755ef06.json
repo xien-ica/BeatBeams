@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "beatbeams:connector": 18,
+      "minecraft:grass_block": 1,
+      "minecraft:smooth_stone": 46,
+      "beatbeams:wire": 47,
+      "minecraft:lever": 8,
+      "beatbeams:music_beacon": 3,
+      "minecraft:polished_diorite_slab": 16,
+      "minecraft:spruce_planks": 24
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2678,
+      "minecraft:time_since_rest": 10114,
+      "minecraft:walk_one_cm": 23910,
+      "minecraft:total_world_time": 14080,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 49906,
+      "minecraft:crouch_one_cm": 410,
+      "minecraft:sneak_time": 416,
+      "minecraft:play_time": 10114,
+      "minecraft:damage_dealt": 10,
+      "minecraft:jump": 23,
+      "minecraft:time_since_death": 10114
+    }
+  },
+  "DataVersion": 5023
+}

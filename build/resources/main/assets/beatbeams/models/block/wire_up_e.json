@@ -1,0 +1,18 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/redstone_dust_line0",
+    "line": "minecraft:block/redstone_dust_line0"
+  },
+  "elements": [
+    {
+      "from": [15.75, 0, 5],
+      "to": [15.75, 16, 11],
+      "shade": false,
+      "faces": {
+        "east": { "uv": [5, 0, 11, 16], "texture": "#line", "tintindex": 0 },
+        "west": { "uv": [5, 0, 11, 16], "texture": "#line", "tintindex": 0 }
+      }
+    }
+  ]
+}
