@@ -5,7 +5,7 @@
 Play your own tracks, analyze the beat and spectrum, then drive beacons, wires, and light panels so builds react to the music in real time.
 
 > **Status: still in development**  
-> This project is actively being built. Features, APIs, and configs may change. Expect bugs, incomplete systems, and breaking updates.
+> This project is incomplete and not finished. Features, APIs, and configs may change. Expect bugs, incomplete systems, and breaking updates.
 
 ---
 
